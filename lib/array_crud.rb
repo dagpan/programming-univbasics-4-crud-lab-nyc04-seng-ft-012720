@@ -24,26 +24,26 @@ def add_element_to_start_of_array(array1 = ["Spring", "Summer", "Fall", "Winter"
   array1.unshift(element)
 end
 
-def remove_element_from_end_of_array(array)
-  
+def remove_element_from_end_of_array(array1 = ["Spring", "Summer", "Fall", "Winter"])
+  array1.pop
 end
 
-def remove_element_from_start_of_array(array)
-  
+def remove_element_from_start_of_array(array1 = ["Spring", "Summer", "Fall", "Winter"])
+  array1.shift
 end
 
-def retrieve_element_from_index(array, index_number)
-  
+def retrieve_element_from_index(array1 = ["Spring", "Summer", "Fall", "Winter"], index_number = 3)
+  return array1[index_number]
 end
 
-def retrieve_first_element_from_array(array)
-  
+def retrieve_first_element_from_array(array1 = ["Spring", "Summer", "Fall", "Winter"])
+  return array1[0]
 end
 
-def retrieve_last_element_from_array(array)
-  
+def retrieve_last_element_from_array(array1 = ["Spring", "Summer", "Fall", "Winter"])
+  return array1[-1]
 end
 
-def update_element_from_index(array, index_number, element)
-
+def update_element_from_index(array1 = ["Spring", "Summer", "Fall", "Winter"], index_number = 3, element = "Cold")
+  array1[index_number] = element
 end
